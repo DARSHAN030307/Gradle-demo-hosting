@@ -11,7 +11,7 @@ public class WebpageTest {
     public void openBrowser() {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("https://ajithjerom.github.io/DevOps-PSG-Gradle/");
+        driver.get("https://github.com/DARSHAN030307/Gradle-demo-hosting");
     }
     @Test
     public void titleValidationTest() {
